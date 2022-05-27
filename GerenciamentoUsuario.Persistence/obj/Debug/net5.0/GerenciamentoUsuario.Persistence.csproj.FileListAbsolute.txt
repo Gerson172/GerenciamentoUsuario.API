@@ -1,8 +1,3 @@
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.csproj.AssemblyReference.cache
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.AssemblyInfoInputs.cache
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.AssemblyInfo.cs
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.deps.json
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.runtimeconfig.json
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.runtimeconfig.dev.json
@@ -11,6 +6,11 @@ C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\Gerenciamento
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.pdb
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Domain.dll
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\bin\Debug\net5.0\GerenciamentoUsuario.Domain.pdb
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.csproj.AssemblyReference.cache
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.AssemblyInfoInputs.cache
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.AssemblyInfo.cs
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.csproj.CopyComplete
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\GerenciamentoUsuario.Persistence.dll
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Persistence\obj\Debug\net5.0\ref\GerenciamentoUsuario.Persistence.dll

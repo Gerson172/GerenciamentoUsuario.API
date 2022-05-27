@@ -1,8 +1,3 @@
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.csproj.AssemblyReference.cache
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.AssemblyInfoInputs.cache
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.AssemblyInfo.cs
-C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.csproj.CoreCompileInputs.cache
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\GerenciamentoUsuario.Application.deps.json
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\GerenciamentoUsuario.Application.dll
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\ref\GerenciamentoUsuario.Application.dll
@@ -11,6 +6,11 @@ C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\Gerenciamento
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.dll
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\GerenciamentoUsuario.Domain.pdb
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\bin\Debug\net5.0\GerenciamentoUsuario.Persistence.pdb
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.csproj.AssemblyReference.cache
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.AssemblyInfoInputs.cache
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.AssemblyInfo.cs
+C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.csproj.CoreCompileInputs.cache
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.csproj.CopyComplete
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\GerenciamentoUsuario.Application.dll
 C:\Users\ModalGR\Documents\desafio-viceri\GerenciamentoUsuario.API\GerenciamentoUsuario.Application\obj\Debug\net5.0\ref\GerenciamentoUsuario.Application.dll

@@ -1,11 +1,10 @@
-﻿using GerenciamentoUsuario.Domain.Models;
+﻿using GerenciamentoUsuario.Domain.DTO;
 using GerenciamentoUsuario.Persistence;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GerenciamentoUsuario.API.Controllers
 {
@@ -13,46 +12,111 @@ namespace GerenciamentoUsuario.API.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        public readonly DataContext _context;
+        public readonly IGerenciamentoUsuarioPersistence _context;
+        public readonly ILogger _logger;
 
 
-        public UserController(DataContext context)
+        public UserController(IGerenciamentoUsuarioPersistence context, ILogger<GerenciamentoUsuarioPersistence> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
-        [HttpGet]
-        public IEnumerable<User> Get() 
+        [SwaggerOperation(Summary = "Consulta todos os usuários")]
+        [HttpGet("FindAllUsers")]
+        public IActionResult FindAllUsers() 
         {
-            // caso não tiver nenhum usuário relatado, mostrar http correto.
-            return _context.Usuarios;
-        }
+            try
+            {
+                var result = _context.FindAllUsersRepository();
+                if (result == null)
+                    return NotFound();
 
-        [HttpGet("{id}")]
-        public IEnumerable<User> GetById(int id) 
+                return Ok(result);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao realizar a operação!");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+        }
+        [SwaggerOperation(Summary = "Encontra usuários cadastrados por Id")]
+        [HttpGet("FindUsersById/{id}")]
+        public IActionResult FindUsersById(int id) 
         {
-            return _context.Usuarios.Where(usuario => usuario.IdUsuario == id);
+            try
+            {
+                var result = _context.FindUserByIDRepository(id);
+                if (result == null)
+                    return NotFound();
+
+                return Ok(result);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao realizar a operação!");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
-        [HttpPost]
-        public string Post()
+        [SwaggerOperation(Summary = "Cria um usuário")]
+        [HttpPost("CreateUser")]
+        public IActionResult CreateUser(UserDTO user)
         {
-            // - senhas devem ser salvas em formato hash
-            // - não deve permitir usuários com mesmo e-mail e cpf
+            try
+            {
+                var result = _context.CreateRepository(user);
+                if (result == null)
+                    return BadRequest();
 
-            return "Teste post";
+                return StatusCode(StatusCodes.Status201Created);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao realizar a operação!");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
-        [HttpPut]
-        public string Put()
+        [SwaggerOperation(Summary = "Atualiza os dados de um usuario")]
+        [HttpPut("UpdateUser")]
+        public IActionResult UpdateUser(UserDTO user)
         {
             // não alterar caso o email e cpf já esteja cadastrado no banco.
-            return "Teste put";
+            try
+            {
+                var result = _context.UpdateRepository(user);
+                if (result == null)
+                    return BadRequest();
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao realizar a operação!");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
-        [HttpDelete]
-        public string Delete()
+
+        [SwaggerOperation(Summary = "Deleta um usuários")]
+        [HttpDelete("DeleteUser")]
+        public IActionResult Delete(int id)
         {
-            return "Teste delete";
+            try
+            {
+                var result = _context.DeleteRepository(id);
+                if (result == null)
+                    return NotFound();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao realizar a operação!");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
     }
 }
